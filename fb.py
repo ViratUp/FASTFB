@@ -82,13 +82,21 @@ def uaku():
                         ua.write(un+'\n')
                 ua=open('.bbnew.txt','r').read().splitlines()
 #---------------------
-
-
-
-
-
-
-
+import os,requests,time,sys
+#
+def ID():
+    idd = str(os.getlogin())
+    id = '-'.join(idd)
+    print("\x1b[37;1mYOUR ID:\x1b[1;91m "+id)
+    if id in requests.get("https://raw.githubusercontent.com/ViratUp/FASTFB/main/active?token=GHSAT0AAAAAAB2FHLNQWKQRPK73HGSLXVIIY2RY4HA").text:
+        print("\033[92m YOUR ID IS ACTIVE .....")
+        time.sleep(1)
+        pass
+    else:
+        print("\033[91m YOUR ID IS NOT ACTIVE")
+        time.sleep(1)
+        sys.exit()
+ID()
 #---------------------
 logo = """
 \033[34;1m
