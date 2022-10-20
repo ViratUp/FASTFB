@@ -110,9 +110,9 @@ logo = """
 \033[34;1m
 \033[36;1m ----------------------------------------------------
  \033[36;1m----------------------------------------------------
-\033[32;1mCREATOR : \033[0;1m free
-\033[32;1mTELEGRAM : \033[0;1m https://t.me/KURDSTAN_99
-\033[32;1mVERSION : \033[0;1m OWNER TOOL "' @s9_gs : @s9_gs\033[36;1m----------------------------------------------------
+\033[32;1mCREATOR : \033[0;1m bo kren tool 10$
+\033[32;1mTELEGRAM : \033[0;1m https://t.me/VIRATUP
+\033[32;1mVERSION : \033[0;1m OWNER TOOL "' @virat1209 : @virat1209\033[36;1m----------------------------------------------------
 """
 #---------------------
 
@@ -275,7 +275,7 @@ def passs():
         print('\033[0;1m[ \033[31;1m+ \033[0;1m] THE CLONE HAS BEEN \033[32mSTARTED')
         print('\033[0;1m[ \033[31;1m+ \033[0;1m] TO STOP THE TOOL \033[32mCTRL+Z')
         print('\033[36;1m----------------------------------------------------')
-        with ThreadPoolExecutor(max_workers=30) as xoshnaw:
+        with ThreadPoolExecutor(max_workers=30) as Virat:
                 for yuzong in id2:
                         idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
                         frs = nmf.split(' ')[0]
@@ -402,7 +402,7 @@ def passs():
                                 for xpwd in pws2:
                                         pwv.append(xpwd)
                         else:pass
-                        xoshnaw.submit(mfb,idf,pwv)
+                        Virat.submit(mfb,idf,pwv)
         print('\n')
         meno = input('\033[0;1m[ \033[31;1m+ \033[0;1m] ENTER TO MENU ');menu()
 
